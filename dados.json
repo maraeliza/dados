@@ -6,7 +6,7 @@
             "emails": [
                 {
                     "id": 1,
-                    "email": "marasampaioslm375@gmail.com",
+                    "email": "atendimento@solucionare.movidesk.com",
                     "nome": "Solucionare",
                     "tipo": "Atendimento Padrão"
                 }
@@ -18,16 +18,17 @@
                     "template": [
                         "Bom dia! Tudo bem?",
                         "",
-                        "",
+                        "Desde já, agradeço!",
                         "Qualquer dúvida, estou à disposição.",
                         "Atenciosamente,",
                         "Mara.",
                         "",
                         "",
-                        "<span style='color:darkred'>Solicitamos a gentileza de desconsiderar o id e o número mencionados no assunto deste e-mail, uma vez que são utilizados apenas para fins de controle interno.</span>",
-                        "<img src='https://i.postimg.cc/3rvvkh5z/Mara-Eliza-1.png'>"
+                        "<span style='color:darkred'>Solicitamos a gentileza de desconsiderar o id e o número mencionados no assunto deste e-mail, uma vez que são utilizados apenas para fins de controle interno.</span>"
                     ],
-                    "campos": []
+                    "campos": [
+                        1
+                    ]
                 },
                 {
                     "id": 1,
@@ -46,34 +47,54 @@
                 {
                     "id": 2,
                     "assunto": "Cadastro de variável em termo monitorado",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "Eu gostaria de solicitar o cadastro de variável para o termo monitorado a seguir:",
+                        "valores"
+                    ],
                     "campos": [
                         1,
-                        2
+                        5,
+                        6,
+                        11
                     ]
                 },
                 {
                     "id": 3,
                     "assunto": "Cadastro de OAB suplementar",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "Gostaria de solicitar o cadastro de OAB suplementar. ",
+                        "valores"
+                    ],
                     "campos": [
                         1,
-                        2
+                        5,
+                        6
                     ]
                 },
                 {
                     "id": 4,
                     "assunto": "Status 'ERRO' no login para coleta de intimações",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "Gostaria de relatar um problema que estamos enfrentando ao tentar cadastrar o login do cliente na plataforma Easyjur para a coleta de intimações eletrônicas. <br>",
+                        "As credenciais de acesso do cliente ao tribunal estão corretos, pois testamos diretamente acessando o tribunal. No entanto, o status permanece com ERRO. <br>",
+                        "valores",
+                        "Por favor, poderiam verificar e nos informar o motivo pelo qual isso está ocorrendo e nos fornecer orientações sobre como proceder para resolver essa questão?"
+                    ],
                     "campos": [
                         1,
-                        2
+                        4,
+                        7,
+                        8
                     ]
                 },
                 {
                     "id": 5,
                     "assunto": "Status 'ERRO' no push de andamentos",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "Identificamos um problema com o push, que retornou com status ERRO.",
+                        "valores",
+                        "Por favor, poderiam verificar e nos informar o motivo pelo qual isso está ocorrendo e nos fornecer orientações sobre como proceder para resolver essa questão?"
+                    ],
                     "campos": [
                         1,
                         2
@@ -82,7 +103,11 @@
                 {
                     "id": 6,
                     "assunto": "Status 'VALIDANDO' no push de andamentos",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -91,7 +116,11 @@
                 {
                     "id": 7,
                     "assunto": "Não coleta de andamentos",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -100,7 +129,11 @@
                 {
                     "id": 8,
                     "assunto": "Não coleta de publicações",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -109,7 +142,11 @@
                 {
                     "id": 9,
                     "assunto": "Não coleta de intimações",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -118,7 +155,11 @@
                 {
                     "id": 10,
                     "assunto": "Atraso na coleta de andamentos",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -127,7 +168,11 @@
                 {
                     "id": 11,
                     "assunto": "Atraso na coleta de publicações",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -136,7 +181,11 @@
                 {
                     "id": 12,
                     "assunto": "Atraso na coleta de intimações",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -145,7 +194,11 @@
                 {
                     "id": 13,
                     "assunto": "Integração para coleta de conteúdo",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -154,7 +207,11 @@
                 {
                     "id": 14,
                     "assunto": "Bloqueio de termo na coleta de publicação",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -163,7 +220,11 @@
                 {
                     "id": 15,
                     "assunto": "Coleta de andamentos indevida",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -172,7 +233,11 @@
                 {
                     "id": 16,
                     "assunto": "Coleta de publicação indevida",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -181,7 +246,11 @@
                 {
                     "id": 17,
                     "assunto": "Coleta de intimação indevida",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -190,7 +259,11 @@
                 {
                     "id": 18,
                     "assunto": "Publicações sem número de processo",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -199,7 +272,11 @@
                 {
                     "id": 19,
                     "assunto": "Status 'ERRO' no login com dupla autenticação",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -222,7 +299,11 @@
                 {
                     "id": 1,
                     "assunto": "Erro na emissão de nota fiscal",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -245,7 +326,11 @@
                 {
                     "id": 1,
                     "assunto": "Erro na emissão de nota fiscal",
-                    "template": "Bom dia, houve erro na nota fiscal de id tal",
+                    "template": [
+                        "",
+                        "valores",
+                        ""
+                    ],
                     "campos": [
                         1,
                         2
@@ -279,11 +364,6 @@
             "id": 4,
             "nome": "Raiany Araújo",
             "email": "raraujo@easyjur.com"
-        },
-        {
-            "id": 5,
-            "nome": "Mara Eliza",
-            "email": "meliza@easyjur.com"
         }
     ],
     "campos": [
